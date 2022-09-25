@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
 * {
     margin: 0;
     box-sizing: border-box;
@@ -21,12 +20,14 @@ body {
     padding: 10px;
     display: flex;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .way{
     text-decoration: none;
     color: #D7CCED;
     margin-left: 15px;
+    font-family: 'Inter Tight', sans-serif;
 }
 
 .back{
@@ -66,6 +67,16 @@ main {
 .user{
     display: flex;
     justify-content: space-between;
-    width:280px
+    width:320px;
+    color:#D7CCED;
+    font-family: 'Inter Tight', sans-serif;
 }
 
+.gaming{
+    width: 320px;
+    margin: auto;
+    margin-left: 30px;
+    color:#D7CCED;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+}
