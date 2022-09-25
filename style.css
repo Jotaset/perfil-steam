@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(/assets/background.jpg);
+    background-size: 100%;
+    background-attachment:fixed;
+    justify-content: center;
+
+}
+
+.nav {
+    background-color: #000013;
+    height: 50px;
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.way{
+    text-decoration: none;
+    color: #D7CCED;
+    margin-left: 15px;
+}
+
+.back{
+    height:1500px;
+    width:700px;
+    background-color:#000013f0 ;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px;
+}
+
+
+main {
+    justify-content: center;
+    display: flex;
+    height:280px;
+    width:700px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    opacity: 1 !important
+}
+
+.upper{
+    height:280px;
+    width: 700px;
+    display:flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    width:280px
+}
+
